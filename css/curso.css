@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Menu */
+
+.logo{
+  width: 1024px;
+  margin: auto;
+}
+.logo img {
+  width: 300px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+#menu-buttons{
+  width: 100%;
+  background-color: #003366;
+
+}
+
+.menu-buttons {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.menu-button {
+  margin: 12px 0;
+}
+
+.menu-button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  width: 180px;
+  height: 40px;
+  background-color: #0055a5;
+  display: flex;           /* transforma em flex container */
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */ 
+  
+
+}
+
+.menu-button a:hover {
+  background-color: #0077cc;
+}
+
+/* Conteúdo central
+.central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.side-logo {
+  width: 200px;
+  margin: 0 20px;
+}
+
+.titles h1 {
+  text-align: center;
+  color: #003366;
+  margin: 30px 0;
+  font-size: 50px ;
+
+}
+
+.titles h2 {
+  text-align: center;
+  color: #555555;
+  margin: 10px 0;
+} */
+
+
+
+
+/* rodape */
+.footer {
+  width: 100%;
+  background-color: #0055a5; /* azul ocupando 100% */
+}
+
+.footer-container {
+  width: 1024px;       /* limite central */
+  margin: 0 auto;      /* centraliza a div no meio da tela */
+  display: flex;
+  justify-content: flex-end; /* joga a logo para direita */
+  align-items: center;
+  height: 200px;        /* mesma altura do rodapé */
+}
+
+.footer-logo {
+  height: 50px;        /* tamanho da logo */
+}
