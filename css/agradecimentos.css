@@ -51,32 +51,36 @@ body {
   background-color: #0077cc;
 }
 
-/* Conteúdo central
-.central {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
+/* Conteúdo central */
+.agradecimentos {
+  max-width: 800px;        /* largura máxima do bloco */
+  margin: 50px auto;       /* centraliza na página */
+  padding: 20px 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
 }
 
-.side-logo {
-  width: 200px;
-  margin: 0 20px;
-}
-
-.titles h1 {
+.agradecimentos h2 {
   text-align: center;
-  color: #003366;
-  margin: 30px 0;
-  font-size: 50px ;
-
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0055a5;          /* cor de destaque */
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-.titles h2 {
-  text-align: center;
-  color: #555555;
-  margin: 10px 0;
-} */
+.agradecimentos p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.agradecimentos strong {
+  color: #0077cc;          /* destaca nomes e instituições */
+}
 
 
 
